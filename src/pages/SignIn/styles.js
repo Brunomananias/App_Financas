@@ -1,6 +1,6 @@
 import styled from 'styled-components/native'
 
-export const Backgroud = styled.View`
+export const Background = styled.View`
 flex: 1;
 background-color: #F0F4FF,
 `
@@ -20,7 +20,7 @@ export const AreaInput = styled.View`
 `
 
 export const Input = styled.TextInput`
-    background-color: #fff;
+    background-color: #FFF;
     width: 90%;
     font-size: 17px;
     padding: 10px;
@@ -31,9 +31,9 @@ export const Input = styled.TextInput`
 
 export const SubmitButton = styled.TouchableOpacity`
     width: 90%;
-    height: 45%;
+    height: 7%;
     border-radius: 8px;
-    background-color: 3b3dbf;
+    background-color: #3b3dbf;
     margin-top: 10px;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ export const SubmitButton = styled.TouchableOpacity`
 
 export const SubmitText = styled.Text`
     font-size: 20px;
-    color: #fff;
+    color: #FFF;
 `
 
 export const Link = styled.TouchableOpacity`

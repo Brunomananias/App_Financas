@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native'
-import {Plataform} from 'react-native'
-import { Backgroud,
+import {Platform} from 'react-native'
+import { Background,
          Container, 
          Logo,
         AreaInput, 
@@ -16,12 +16,12 @@ export default function SignIn(){
     const navigation = useNavigation();
 
     return(
-       <Backgroud>
+       <Background>
         <Container
-            behavior={Plataform.OS === 'ios' ? 'padding' : ''}
+            behavior={Platform.OS === 'ios' ? 'padding' : ''}
             enabled
         
-        />
+        >
             <Logo
                 source={require('../../../assets/Logo.png')}
             />
@@ -48,7 +48,7 @@ export default function SignIn(){
             <LinkText>Criar uma conta</LinkText>
         </Link>
 
-        
-       </Backgroud>
+        </Container>        
+       </Background>
     )
 }
